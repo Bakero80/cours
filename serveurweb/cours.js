@@ -1,7 +1,7 @@
 
 var req = new XMLHttpRequest();
 // La requête est asynchrone lorsque le 3ème paramètre vaut true ou est absent
-req.open("GET", "http://localhost/my-site/javascript-web-srv/data/films.json");
+req.open("GET", "http://localhost/javascript-web-srv/data/films.json");
 // Gestion de l'événement indiquant la fin de la requête
 req.addEventListener("load", function () {
     // Affiche la réponse reçue pour la requête
