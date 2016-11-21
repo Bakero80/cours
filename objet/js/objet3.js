@@ -7,7 +7,7 @@ function Gold(name,age,signe,attack1,attack2,vitesse) {
   this.vitesse = vitesse
 };
 
-var saga = new Gold('Saga',20,'Gémeau','Galaxian explosion', 'Genmaroken', 'Lumière');
+var saga = new Gold('Saga',28,'Gémeau','Galaxian explosion', 'Genmaroken', 'Lumière');
 console.log(saga);
 
 console.log(saga.name+ " est le chevalier d'or du signe du " + saga.signe +
